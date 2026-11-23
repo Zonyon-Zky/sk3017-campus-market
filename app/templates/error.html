@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}{{ code }} · 校园拾光集{% endblock %}{% block body %}<main class="error-page"><div class="error-code">{{ code }}</div><h1>{{ message }}</h1><p>可以返回市场继续逛逛。</p><a class="btn primary" href="{{ url_for('market.index') }}">回到市场</a></main>{% endblock %}
